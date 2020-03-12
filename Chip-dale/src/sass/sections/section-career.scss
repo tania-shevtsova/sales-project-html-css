@@ -1,0 +1,59 @@
+.section-carrer {
+    display: block;
+    padding-top: 120px;
+    background: #354A6F;
+    background: radial-gradient(circle at center, #1d283c, #1F232B 60%);
+    margin: 0 auto;
+}
+
+.logo__career {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-bottom: 41px;
+}
+
+.text__career {
+    color: #6b6f7a;
+    width: 249px;
+    padding-bottom: 72px;
+    @extend %Acrom-Medium;
+    line-height: 25px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.link_career {
+    color: #17ecff;
+    text-decoration: none;
+}
+
+@media (min-width: 767px) {
+    .section-career {
+        width: 709px;
+        margin: 0 auto;
+        }
+    
+    .container {
+        margin: 0 auto;
+    }
+    
+    .text__career {
+        line-height: 25px;
+        width: 475px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .container {
+        margin: 0 auto;
+    }
+
+    .text__career {
+        width: 704px;
+    }
+
+
+}

@@ -1,0 +1,95 @@
+.flexone {
+    width: 316px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-top: 68px;
+    margin-bottom: 70px;
+}
+
+.text-tittle {
+    @extend %acrom-extrabold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1b2436;
+    text-transform: uppercase;
+}
+
+.text-subtittle {
+    @extend %acrom-extrabold;
+    font-size: 14px;
+    color: #1b2436;
+    text-align: left;
+    line-height: 21px;
+}
+
+.text-shadow {
+    color: #ff6c00;
+}
+
+.text-first {
+    @extend %Acrom-Regular;
+    font-size: 14px;
+    color: #1b2436;
+    line-height: 21px;
+}
+
+.second-text-tittle {
+    @extend %acrom-extrabold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1b2436;
+    text-transform: uppercase;
+}
+
+.second-text-subtittle {
+    @extend %acrom-extrabold;
+    font-size: 14px;
+    color: #1b2436;
+    line-height: 21px;
+}
+
+.text-second {
+    @extend %Acrom-Regular;
+    font-size: 14px;
+    color: #1b2436;
+    line-height: 21px;
+}
+
+@media (min-width: 767px) {
+    .flexone {
+        display: flex;
+        padding-top: 90px;
+        width: 709px;
+    }
+
+    .first-container {
+        width: 325px;
+        padding-left: 52px;
+        margin-bottom: 100px;
+    }
+    .second-container {
+        width: 310px;
+        padding-left: 27px;
+        margin-left: 27px;
+    }
+    
+    
+}
+
+@media (min-width: 1200px) {
+    .flexone{
+        width: 1071px;
+    }
+    .first-container {
+        width: 473px;
+        margin: 0;
+        padding-left: 77px;
+        margin-bottom: 100px;
+    }
+
+    .second-container {
+        width: 444px;
+        margin-left: 60px;
+        padding-left: 42px;
+    }    
+}

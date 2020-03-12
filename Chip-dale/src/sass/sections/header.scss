@@ -1,0 +1,97 @@
+
+.header {
+    background-image: linear-gradient( 90deg, rgba(24,28,39,0.29) 0%, rgba(15,31,51,0.29) 100%), url(../images/background-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(14, 31, 52);
+    display: flex;
+    align-content: center;
+    margin: 0 auto;
+    padding-top: 32px;
+    padding-bottom: 170px;
+}
+.container{
+    margin: 0 auto;
+}
+.logo { 
+    width: 110px;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 45px;
+
+
+}
+.header__title {
+    @extend %acrom-bold; 
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    color:#ffffff;
+    width: 250px;
+    margin: 0 auto;
+
+}
+.header__title span {
+    @extend %acrom-extrabold;
+    margin: 0 auto;
+    font-size: 30px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color:#ffffff;
+    margin-top: 24px;
+    width: 224px;
+    margin-bottom: 30px;
+
+}
+
+.header__subtitle {
+    text-align: center;
+    @extend %Acrom-Regular;
+    font-size: 14px;
+    line-height: 20px;
+    color:#636770;
+    // margin-top: 30px;
+    width: 166px;
+    margin: 0 auto;
+}
+
+
+// Tablet/
+
+@media (min-width: 768px) {
+    
+    .container {
+        margin: 0 auto;
+    }
+    .header {
+        background-image: linear-gradient( 90deg, rgba(24,28,39,0.29) 0%, rgba(15,31,51,0.29) 100%), url(../images/background-header-t.png);
+        padding-top: 32px;
+        padding-bottom: 338px;
+    }
+    .header__title {
+        font-size: 36px;
+        width: 544px;
+
+    }
+    .header__title span{
+        font-size: 46px;
+        line-height: 60px;
+        display: block;
+        width: 100%;
+    }
+    .header__subtitle {
+        margin-top: 30px;
+        width: 300px;
+    }
+    
+}
+
+// Desktop
+
+@media (min-width: 1200px) {
+    .header {
+        padding-bottom: 352px;
+        background-image: linear-gradient( 90deg, rgba(24,28,39,0.29) 0%, rgba(15,31,51,0.29) 100%), url(../images/background-header-d.png);
+    }
+}
